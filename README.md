@@ -4,16 +4,16 @@
  
  This work was done as distributed systems assignments.
 
-### Assignment 1: LCR Leader Election Algorithm
+### LCR Leader Election Algorithm
  IDs and link delays are passed to the nodes in a circular topology in clockwise order, then they start to exchange required messages until a leader is founded with the help of LCR algorithm explained in Distributed Algorithms by Nancy A. Lynch[^1].
 
-### Assignment 2: Bellman-Ford Shortest Path Algorithm
+### Bellman-Ford Shortest Path Algorithm
  Desired topology is fed into the code with a predefined format, then message passing starts so that finally a specified node, that does not have a central view of the network, knows the shortest path to evey other nodes. [^1]
 
-### Assignment 3: Paxos Consensus Protocol
+### Paxos Consensus Protocol
  Nodes in a a given topology exchange messages in an asynchronous manner until they come to a consensus on their valuse. This protocol is known as Paxos. [^2]
 
-### Assignment 4: Gallager-Humblet-Spira (GHS) Minimum Spanning Tree Algorithm
+### Gallager-Humblet-Spira (GHS) Minimum Spanning Tree Algorithm
  In this algorithm, nodes talk to each other to find a minimum spanning tree between themeselves. At the end, evey node should know its neighbor in the tree. This algorithm is explained in [^1] in detail.
 
  [^1]: Lynch, N.A., 1996. Distributed algorithms. Elsevier.
