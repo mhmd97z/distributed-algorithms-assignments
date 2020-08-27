@@ -1,7 +1,7 @@
 # Distributed Algorithms Simulations
 
- Implementation LCR leader election, Bellman-Ford shortest path, Paxos consensus algorithm, and GHS minimum spanning tree algorithms using socket programming in Python. 
- 
+ Implementation LCR leader election, Bellman-Ford shortest path, Paxos consensus algorithm, and GHS minimum spanning tree algorithms using socket programming as well as distributed computation of a page rank and a friend suggestion method using Spark. 
+
  This work was done as distributed systems assignments.
 
 ### LCR Leader Election Algorithm
@@ -15,6 +15,13 @@
 
 ### Gallager-Humblet-Spira (GHS) Minimum Spanning Tree Algorithm
  In this algorithm, nodes talk to each other to find a minimum spanning tree between themeselves. At the end, evey node should know its neighbor in the tree. This algorithm is explained in [^1] in detail.
+
+### Friend Suggestion
+ Suggesting some, for example 10, new friends to a person using Spark. These new friends have the most common friends with that person but are not his/her friends. The dataset consists of rows that show friends of an individual.
+
+### Page Rank
+ Ranking a set of pages that have links to each other. [This ranking method](https://en.wikipedia.org/wiki/PageRank) was used in Google in its early days of establishments. This method is implemented using Spark.
+
 
  [^1]: Lynch, N.A., 1996. Distributed algorithms. Elsevier.
  [^2]: Lamport, L., 2001. Paxos made simple. ACM Sigact News, 32(4), pp.18-25.
