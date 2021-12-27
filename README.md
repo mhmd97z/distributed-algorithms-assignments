@@ -1,8 +1,8 @@
+`These assignments were part of my undergrad coursework at Sharif UT.`
+
 # Distributed Algorithms Simulations
 
  Implementation LCR leader election, Bellman-Ford shortest path, Paxos consensus algorithm, and GHS minimum spanning tree algorithms using socket programming as well as distributed computation of a page rank and a friend suggestion method using Spark. 
-
- This work was done as distributed systems assignments.
 
 ### LCR Leader Election Algorithm
  IDs and link delays are passed to the nodes in a circular topology in clockwise order, then they start to exchange required messages until a leader is founded with the help of LCR algorithm explained in Distributed Algorithms by Nancy A. Lynch[^1].
